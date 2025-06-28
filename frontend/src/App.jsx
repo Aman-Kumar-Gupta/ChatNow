@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/home_page'
-import LoginPage from './pages/LoginPage'
-import ProfilePage from './pages/ProfilePage'
+import LoginPage from './pages/login_page'
+import ProfilePage from './pages/profile_page'
 import {Toaster} from 'react-hot-toast';
 import { AuthContext } from '../context/auth_context'
 

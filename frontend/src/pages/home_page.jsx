@@ -1,8 +1,8 @@
 import React, { useContext} from "react";
 import Sidebar from "../components/Sidebar";
-import ChatContainer from "../components/ChatContainer";
-import RightSideBar from "../components/RightSideBar";
-import { ChatContext } from "../../context/ChatContext";
+import ChatContainer from "../components/chat_container";
+import RightSideBar from "../components/right_sidebar";
+import { ChatContext } from "../../context/chat_context";
 
 const HomePage = () => {
   const {selectedUser} =useContext(ChatContext); 
