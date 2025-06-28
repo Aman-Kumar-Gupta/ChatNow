@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from 'react'
 import assets from '../assets/assets'
 import { formatDate } from '../lib/utils'
 import { ChatContext } from '../../context/ChatContext'
-import { AuthContext } from '../../context/temp'
+import { AuthContext } from '../../context/auth_context'
 
 const ChatContainer = () => {
     const {messages,selectedUser,setSelectedUser,sendMessage,getMessages}=useContext(ChatContext);

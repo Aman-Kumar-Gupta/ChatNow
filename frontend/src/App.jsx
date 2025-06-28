@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import HomePage from './pages/homepage'
+import HomePage from './pages/home_page'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import {Toaster} from 'react-hot-toast';
-import { AuthContext } from '../context/temp'
+import { AuthContext } from '../context/auth_context'
 
 const App = () => {
   const {authUser}=useContext(AuthContext)
